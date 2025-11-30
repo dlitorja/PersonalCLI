@@ -1,0 +1,42 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Go workspace
+bin/
+pkg/
+
+# Configuration files that may contain sensitive data
+client_secret_*.json
+*:Zone.Identifier
+
+# Build artifacts
+personalcli
+personalcli.exe
+
+# Local config directory (user-specific data will be stored here)
+.config/
