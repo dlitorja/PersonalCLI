@@ -34,9 +34,9 @@ pkg/
 client_secret_*.json
 *:Zone.Identifier
 
-# Build artifacts
-personalcli
-personalcli.exe
+# Build artifacts (executable files, not directories)
+/personalcli
+/personalcli.exe
 
 # Local config directory (user-specific data will be stored here)
 .config/
